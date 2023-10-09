@@ -1,0 +1,33 @@
+.form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form input {
+	width: 400px;
+	height: 70px;
+	text-align: center;
+	background-color: var(--color-base-tertiary);
+	color: var(--color-text);
+	outline: none;
+	transition: ease 0.2s;
+	border-left: solid 5px transparent;
+}
+
+.form input:focus {
+	border-left: solid 5px var(--color-primary);
+	transition: ease 0.2s;
+}
+
+.copy {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+
+.logo {
+	width: 120px;
+	margin: 0 auto;
+}
